@@ -1,8 +1,0 @@
-
-services:
-  - type: web
-    name: moi-violations-api
-    env: node
-    plan: free
-    buildCommand: npm install && npx playwright install chromium
-    startCommand: npm start
